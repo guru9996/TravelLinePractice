@@ -1,0 +1,14 @@
+D:\TravelLinePractice\homework\cryptOrDecrypt\bin\Debug\net6.0\cryptOrDecrypt.exe
+D:\TravelLinePractice\homework\cryptOrDecrypt\bin\Debug\net6.0\cryptOrDecrypt.deps.json
+D:\TravelLinePractice\homework\cryptOrDecrypt\bin\Debug\net6.0\cryptOrDecrypt.runtimeconfig.json
+D:\TravelLinePractice\homework\cryptOrDecrypt\bin\Debug\net6.0\cryptOrDecrypt.dll
+D:\TravelLinePractice\homework\cryptOrDecrypt\bin\Debug\net6.0\cryptOrDecrypt.pdb
+D:\TravelLinePractice\homework\cryptOrDecrypt\obj\Debug\net6.0\cryptOrDecrypt.GeneratedMSBuildEditorConfig.editorconfig
+D:\TravelLinePractice\homework\cryptOrDecrypt\obj\Debug\net6.0\cryptOrDecrypt.AssemblyInfoInputs.cache
+D:\TravelLinePractice\homework\cryptOrDecrypt\obj\Debug\net6.0\cryptOrDecrypt.AssemblyInfo.cs
+D:\TravelLinePractice\homework\cryptOrDecrypt\obj\Debug\net6.0\cryptOrDecrypt.csproj.CoreCompileInputs.cache
+D:\TravelLinePractice\homework\cryptOrDecrypt\obj\Debug\net6.0\cryptOrDecrypt.dll
+D:\TravelLinePractice\homework\cryptOrDecrypt\obj\Debug\net6.0\refint\cryptOrDecrypt.dll
+D:\TravelLinePractice\homework\cryptOrDecrypt\obj\Debug\net6.0\cryptOrDecrypt.pdb
+D:\TravelLinePractice\homework\cryptOrDecrypt\obj\Debug\net6.0\cryptOrDecrypt.genruntimeconfig.cache
+D:\TravelLinePractice\homework\cryptOrDecrypt\obj\Debug\net6.0\ref\cryptOrDecrypt.dll

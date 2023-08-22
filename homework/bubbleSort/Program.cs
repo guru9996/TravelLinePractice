@@ -2,16 +2,15 @@
 {
     internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-            string? s = Console.ReadLine();
+            string? str = Console.ReadLine();
             List<int> numList = new List<int>();
 
-            string[] numsStr = s.Split(' ');
-            int num;
+            string[] numsStr = str.Split(' ');
             foreach (string? numStr in numsStr)
             {
-                bool sucParse = int.TryParse(numStr, out num);
+                bool sucParse = int.TryParse(numStr, out int num);
                 if (sucParse)
                 {
                     numList.Add(num);
