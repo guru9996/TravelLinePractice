@@ -14,7 +14,7 @@ public class XOR
         return tempStr.Substring(0, length);
     }
 
-    private string crypter(string word, string secKey)
+    public string crypter(string word, string secKey)
     {
         string curKey = reptKey(secKey, word.Length);
         string result = string.Empty;
@@ -24,12 +24,6 @@ public class XOR
         }
         return result;
     }
-
-    public string decrypt(string word, string password)
-        => crypter(word, password);
-
-    public string crypt(string word, string password)
-        => crypter(word, password);
 }
 
 class Program
@@ -41,8 +35,8 @@ class Program
         string? word = Console.ReadLine();
         Console.WriteLine("пароль: ");
         string? password = Console.ReadLine();
-        string? cryptedWord = XOR.crypt(word, password);
+        string? cryptedWord = XOR.crypter(word, password);
         Console.WriteLine(cryptedWord);
-        Console.WriteLine(XOR.decrypt(cryptedWord, password));
+        Console.WriteLine(XOR.crypter(cryptedWord, password));
     }
 }
