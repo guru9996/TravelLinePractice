@@ -16,7 +16,7 @@ public class XOR
 
     private string crypter(string word, string secKey)
     {
-        var curKey = reptKey(secKey, word.Length);
+        string curKey = reptKey(secKey, word.Length);
         string result = string.Empty;
         for (int i = 0; i < word.Length; i++)
         {
@@ -38,10 +38,10 @@ class Program
     {
         var XOR = new XOR();
         Console.WriteLine("текст");
-        var word = Console.ReadLine();
+        string? word = Console.ReadLine();
         Console.WriteLine("пароль: ");
-        var password = Console.ReadLine();
-        var cryptedWord = XOR.crypt(word, password);
+        string? password = Console.ReadLine();
+        string? cryptedWord = XOR.crypt(word, password);
         Console.WriteLine(cryptedWord);
         Console.WriteLine(XOR.decrypt(cryptedWord, password));
     }
