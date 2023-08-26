@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using System.Data;
 
 namespace Domain.Entity;
 
@@ -6,6 +7,7 @@ namespace Domain.Entity;
 public class cryptData
 {
     public int Id { get; set; }
+
     public string? data { get; set; }
     public string? cryptedWord { get; set; }
 
