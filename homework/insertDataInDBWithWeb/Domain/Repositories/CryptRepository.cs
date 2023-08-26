@@ -10,6 +10,6 @@ public interface CryptRepository
 {
     void AddData( cryptData Data );
     List<cryptData> GetData();
-
+    
 
 }
